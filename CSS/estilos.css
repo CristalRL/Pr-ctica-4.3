@@ -1,0 +1,32 @@
+.ct-series-a .ct-Line {
+    
+    stroke: rgb(176, 5, 5, 0.886);
+    
+    stroke-width: 30px;
+    }
+    .ct-series-b .ct-Line {
+    
+    stroke: rgb(241, 102, 102);
+    
+    stroke-width: 25px;
+    }
+    .temp-box{
+        width: 50px;
+        }
+        .temp{
+        display: inline-flex;
+        }
+        .temp-box.max{
+        background-color: rgba(176, 5, 5, 0.886);
+        }
+        .temp-box.min{
+        background-color:  rgb(241, 102, 102);
+        }
+        .subt{
+        display: block;
+        color: rgb(43, 176, 25);
+        font-size: large;
+        }
+        .centro{
+        text-align: center;
+        }
